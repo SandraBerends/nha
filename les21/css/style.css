@@ -1,0 +1,25 @@
+body {
+     font-family: 'Open Sans', sans-serif;
+     line-height: 1.9;
+     padding-top: 65px;
+     background-color: #fafafa;
+}
+h1, h2, h3 {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 700;
+}
+nav.navbar {
+     border-bottom: 1px solid #ddd;
+     background-color: #fff;
+}
+.navbar-brand {
+     font-family: 'Montserrat', sans-serif;
+}
+.text-bg-light {
+     background-color: #fff !important;
+}
+.footer > .row {
+     min-height: 200px;
+     background-color: #000;
+     color: #fff;
+}
