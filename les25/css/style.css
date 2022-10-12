@@ -1,0 +1,174 @@
+body {
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     background: #f7f7f7;
+}
+h1 {
+     font-family: 'Roboto Slab', serif;
+     font-size: 45px;
+     margin: 30px 0 25px 0;
+     color:#b2391e;
+     font-weight:800;
+}
+p.intro {
+     font-size: 18px;
+     font-weight:700;
+     margin-bottom: 30px;
+}
+.ui-widget input.btn-dark {
+     background: #b2391e;
+     border-color: #b2391e;
+     font-family: 'Roboto Slab', serif;
+}
+.categorie {
+     margin-top: 45px;
+     margin-bottom: 45px;
+     font-size: 15px;
+}
+.categorie span {
+     font-family: 'Roboto Slab', serif;
+     font-weight: 800;
+     font-size: 16px;
+}
+.hero-image {
+     background-image: url("../img/tarte-tatin.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 350px;
+     position:fixed;
+     width:100%;
+     top: 0;
+     left:0;
+     z-index:-1
+}
+.page {
+     margin-top: 200px;
+     background-color: #fff;
+     max-width: 1000px;
+     padding: 30px 30px 15px 30px;
+     min-height: calc(100vh - 200px);
+     box-shadow: 0 6px 80px rgba(0,0,0,.1);
+     margin-bottom:40px;
+}
+hr {
+     width: 125px;
+     margin: 15px auto 30px auto;
+     height: 2px;
+     border-top: 2px;
+     background: #e9742a;
+     opacity:1;
+}
+form {
+     margin: 20px 0;
+}
+form input[type="number"] {
+     font-family: 'Roboto', sans-serif;
+     max-width: 200px;
+     border: 1px solid #c5c5c5;
+}
+.ingred span, .benodigdh span {
+     display: inline-block;
+     font-weight: 600;
+     width: 90px;
+     text-align: right;
+     padding-right: 5px;
+}
+.colom {
+     background: #fcf1e8;
+     padding: 30px;
+}
+@media screen and (max-width:767px) {
+     .colom:first-of-type {
+          padding-bottom:0;
+     }
+}
+.row.ingredienten {
+     border: 1px solid #ccc;
+     margin-top: 25px;
+}
+.colom h2 {
+     font-family: "Roboto Slab", serif;
+     font-size: 20px;
+     margin: 0 0 10px 95px;
+}
+h2 {
+     font-family: "Roboto Slab", serif;
+     font-size: 26px;
+     margin: 40px 0 25px 0;
+}
+ol {
+     padding-left: 17px;
+}
+ol li {
+     margin-bottom: 20px;
+}
+.categorie a {
+     color: #333;
+     text-decoration: none;
+     border-bottom: 1px solid #b2391e;
+}
+.categorie a:hover, .categorie a:focus, .categorie a:active {
+     background: #b2391e;
+     color: #fff;
+}
+.ui-widget {
+     font-family: 'Roboto', sans-serif;
+     font-size: 16px;
+     line-height: 24px;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+     font-family: 'Roboto Slab', sans-serif;
+     color: #656565;
+     border:0;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+     background: #fcf1e8;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+     background-color: #fff;
+     border: 1px solid #c5c5c5;
+     color: #333;
+}
+.ui-widget-header {
+     background: #fff;
+     border: 0;
+     border-bottom: 1px solid #ddd;
+     border-radius:0;
+     padding: 0 !important;
+}
+.ui-state-active a, .ui-state-active a:link {
+     color: #333 !important;
+     font-weight: 700;
+     font-family: 'Roboto Slab', serif;
+}
+.ui-tabs {
+     padding-left:0;
+     padding-right:0;
+     border:0 !important
+}
+.ui-tabs .ui-tabs-panel {
+     border: 1px solid #c5c5c5;
+     border-top:0;
+     border-radius: 0;
+}
+header .row {
+     min-height: 150px;
+}
+.bronvermelding {
+     font-size: 14px;
+     margin-top: 10px;
+     font-style: italic;
+     margin-bottom:0;
+}
+.bronvermelding a {
+     color: #333;
+     border-bottom: 1px solid #b2391e;
+     text-decoration: none;
+}
+.bronvermelding a:hover, .bronvermelding a:focus, .bronvermelding a:active {
+     background: #b2391e;
+     color: #fff;
+}

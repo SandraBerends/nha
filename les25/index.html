@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+     <meta charset="utf-8">
+     <title>Franse Tarte Tatin</title>
+     <meta name="description" content="Recept voor Tarte Tatin op de Franse manier. Bon appétit!">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600;800&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+     <!-- jQuery &jQuery UI javascript-->
+     <script
+     src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+
+     <!--Bootstrap CSS-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+     <!-- jQuirt UI CSS -->
+     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+     <link rel="stylesheet" href="css/style.css">
+
+     <!-- javascript -->
+     <script>
+     $( function() {
+          $( "#tabs" ).tabs();
+     } );
+     </script>
+
+</head>
+
+<body>
+     <div class="hero-image">
+     </div>
+
+     <div class="container-sm page">
+          <div class="row justify-content-center">
+               <div class="col-12 align-self-center">
+                    <header>
+                         <h1 class="text-center">Franse Tarte Tatin</h1>
+                         <hr>
+                    </header>
+               </div>
+          </div>
+
+          <div class="row justify-content-center">
+               <div class="col-12">
+                    <main>
+                         <p class="text-center intro">
+                              Zacht zoete appels, onweerstaanbare karamel,<br>geserveerd met een lik crème fraiche.<br>
+                              Bon appétit!
+                         </p>
+                         <p class="text-center categorie">
+                              <span>Categorieën:</span><br>
+                              <a href="#">Oven</a>, <a href="#">Frans</a>, <a href="#">Gebak</a>, <a href="#">Nagerecht</a>, <a href="#">Herfst</a>
+                         </p>
+
+                         <div id="tabs">
+                              <ul>
+                                   <li><a href="#tabs-1">Ingrediënten</a></li>
+                                   <li><a href="#tabs-2">Bereidingswijze</a></li>
+                                   <li><a href="#tabs-3">Algemene informatie</a></li>
+                              </ul>
+                              <div id="tabs-1">
+                                   <form>
+                                        <p class="text-center">
+                                             Vul het aantal personen in waarvoor je het gerecht wilt maken, en klik op 'Bereken'.<br>
+                                        </p>
+                                        <div class="input-group justify-content-center">
+                                             <input id="aantal" class="form-control" type="number" value="6" min="0" max="20" autocomplete=off><input id="knop" name="knop" type="button" value="Bereken" class="btn btn-dark">
+                                        </div>
+                                   </form>
+
+                                   <script>
+                                   $("#knop").click(function() {
+                                        var aantal = $("#aantal").val();
+                                        var list = "<span>" + 30 * aantal + " gr</span> ongezouten roomboter<br>" + "<span>" + 25 * aantal + " gr</span> tarwebloem<br>"
+                                        + "<span>" + (8.5 * aantal).toFixed(0) + " ml</span> kraanwater<br>"
+                                        + "<span>" + (0.66667 * aantal).toFixed(0) + "</span> jazz-appels<br>"
+                                        + "<span>" + 25 * aantal + " gr</span> witte basterdsuiker<br>"
+                                        + "<span>" + (33.3333 * aantal).toFixed(0) + " ml</span> crème fraîche";
+                                        $(".ingred").html(list);
+                                   });
+                                   </script>
+                                   <noscript>
+                                        Om deze website optimaal te gebruiken, is het noodzakelijk om JavaScript te activeren.
+                                   </noscript>
+                                   <div class="row ingredienten">
+                                        <div class="col-12 col-md-6 colom">
+                                             <h2>Boodschappen</h2>
+                                             <div class="ingred">
+                                                  <span>180 gr</span> ongezouten roomboter<br>
+                                                  <span>150 gr</span> tarwebloem<br>
+                                                  <span>50 ml</span> kraanwater<br>
+                                                  <span>4</span> jazz-appels<br>
+                                                  <span>150 gr</span> witte basterdsuiker<br>
+                                                  <span>200 ml</span> crème fraîche<br>
+                                             </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 colom">
+                                             <h2>Benodigdheden</h2>
+                                             <div class="benodigdh">
+                                                  <span>1</span> quichevorm (Ø 26 cm)<br>
+                                                  <span></span> oven
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div id="tabs-2">
+                                   <h2 class="text-center">Bereidingswijze</h2>
+                                   <ol>
+                                        <li>
+                                             Doe 80 g boter (per taart) en alle bloem in een beslagkom en snijd fijn met 2 messen. Voeg een klein deel van de basterdsuiker toe. Schenk er ijskoud water bij. Kneed met de hand snel tot een soepel deeg (voeg wat water toe als het deeg te droog is), maak er een bal van, dek af met vershoudfolie. Laat minimaal 30 min. in de koelkast rusten. Verwarm ondertussen de oven voor op 195 °C.
+                                        </li>
+                                        <li>
+                                             Schil de appels, verwijder de klokhuizen en snijd de appels in 4 parten. Snijd de rest van de boter in blokjes, doe deze in een steelpan en laat op laag vuur smelten. Strooi de rest van de basterdsuiker erover zodra de boter is gesmolten. Verhit op halfhoog vuur zonder te roeren, tot een bruine karamel ontstaat. Neem de pan van het vuur, schenk de hete karamel voorzichtig in de quichevorm en leg de appels met de bolle kant naar beneden in de karamel.
+                                        </li>
+                                        <li>
+                                             Rol het deeg uit tot een ronde lap van ca. 28 cm doorsnede en leg deze over de appels. Stop het deeg goed 'in' tussen de appels en de rand, zodat er geen appel meer zichtbaar is. Bak de taart 50 min. in het midden van de oven.
+                                        </li>
+                                        <li>
+                                             Laat ca. 12 min. afkoelen. Leg een bord omgekeerd op de vorm en keer de vorm om, zodat de taart op het bord ligt. Serveer warm en schep op elk stuk een lepel crème fraîche.
+                                        </li>
+                                   </ol>
+                              </div>
+                              <div id="tabs-3">
+                                   <h2 class="text-center">Algemene informatie</h2>
+                                   <p class="text-center">
+                                        575 kcal per portie<br>
+                                        25 min. bereidingstijd<br>
+                                        50 min. oventijd<br>
+                                        30 min. wachten om af te laten koelen
+                                   </p>
+                              </div>
+                         </div>
+                    </main>
+               </div>
+          </div>
+
+          <div class="row justify-content-center">
+               <div class="col-12">
+                    <footer>
+                         <p class="bronvermelding">
+                              Bron: <a href="https://www.ah.nl/allerhande/recept/R-R584390/franse-tarte-tatin" target="_blank">ah.nl</a>
+                         </p>
+                    </footer>
+               </div>
+          </div>
+     </div>
+
+     <!-- Bootstrap-JavaScript-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
